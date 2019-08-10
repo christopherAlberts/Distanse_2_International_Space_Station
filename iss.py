@@ -59,7 +59,7 @@ def iss():
     iss_pass = url_response(url_iss_pass_time)
     num_passes_today = clean_up(str(iss_pass), "passes': ", "}")
 
-    #  CALCULATE DISTANCE TO INTERNATIONAL SPACE STATION:
+    # DISTANCE TO INTERNATIONAL SPACE STATION CALCULATION:
     r = 6371  # Radius of the Earth in km
     b = 408  # Height of the International Space Station in km
 
