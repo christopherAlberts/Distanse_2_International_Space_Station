@@ -143,5 +143,5 @@ def iss():
     people_col = ['Number', 'Astronauts', 'Craft']
     print(tf.generate_table(people_row,people_col))
 
-iss()
+# iss()
 # iss_loop()
