@@ -4,6 +4,10 @@ This code make's use of the IPSTACK API to get one's Latitude and Longitude via 
 
 *https://ipstack.com/*
 
+In order to run tis code you'll also need to install the package "tableformatter" among others. You can install tableformatter via the following link: 
+
+*https://pypi.org/project/tableformatter/*
+
 ## The way to run this code:
 
 The main method is the iss() method. You can either import this method into your own code or you can uncomment the iss() method at the bottom of the code and merely run the iss.py file. The iss() method will only execute the code once. If you would like the code to run continuously and watch the International Space Station move you can execute the iss_loop() method. This can also be uncommented at the bottom of the iss.py file. 
